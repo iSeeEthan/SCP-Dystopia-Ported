@@ -35,7 +35,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> facility_concrete_lightgray = registerBlock("facility_concrete_lightgray",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> floor_wood = registerBlock("floor_wood",
-            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.WOOD)));
 
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
