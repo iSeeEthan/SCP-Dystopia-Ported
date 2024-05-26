@@ -37,7 +37,17 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.facility_concrete_lightgray.get());
                         pOutput.accept(ModBlocks.duct.get());
                         pOutput.accept(ModBlocks.floor_wood.get());
-
+                        pOutput.accept(ModBlocks.generic_facility_wall.get());
+                        pOutput.accept(ModBlocks.generic_facility_wall_blood.get());
+                        pOutput.accept(ModBlocks.generic_facility_wall_cracked.get());
+                        pOutput.accept(ModBlocks.reinforced_panel1.get());
+                        pOutput.accept(ModBlocks.reinforced_panel2.get());
+                        pOutput.accept(ModBlocks.reinforced_panel3.get());
+                        pOutput.accept(ModBlocks.rusty_iron_block.get());
+                        pOutput.accept(ModBlocks.very_rusty_iron_block.get());
+                        pOutput.accept(ModBlocks.steel_block.get());
+                        pOutput.accept(ModBlocks.steel_block_darker.get());
+                        pOutput.accept(ModBlocks.vent.get());
                     })
                     .build());
 

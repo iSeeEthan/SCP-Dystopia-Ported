@@ -36,6 +36,28 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
     public static final RegistryObject<Block> floor_wood = registerBlock("floor_wood",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> generic_facility_wall = registerBlock("generic_facility_wall",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> generic_facility_wall_blood = registerBlock("generic_facility_wall_blood",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> generic_facility_wall_cracked = registerBlock("generic_facility_wall_cracked",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> reinforced_panel1 = registerBlock("reinforced_panel1",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> reinforced_panel2 = registerBlock("reinforced_panel2",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> reinforced_panel3 = registerBlock("reinforced_panel3",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> rusty_iron_block = registerBlock("rusty_iron_block",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> steel_block = registerBlock("steel_block",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> steel_block_darker = registerBlock("steel_block_darker",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> vent = registerBlock("vent",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> very_rusty_iron_block = registerBlock("very_rusty_iron_block",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
 
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

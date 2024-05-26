@@ -9,7 +9,17 @@
   "block.scpdystopiaported.duct": "Duct",
   "block.scpdystopiaported.facility_concrete_gray": "Gray Facility Concrete",
   "block.scpdystopiaported.facility_concrete_lightgray": "Light Gray Facility Concrete",
-  "block.scpdystopiaported.floor_wood": "Wood Floor",
+  "block.scpdystopiaported.generic_facility_wall": "Generic Facility Wall",
+  "block.scpdystopiaported.generic_facility_wall_blood": "Generic Facility Wall Blood",
+  "block.scpdystopiaported.generic_facility_wall_cracked": "Generic Facility Wall Cracked",
+  "block.scpdystopiaported.reinforced_panel1": "Reinforced Panel 1",
+  "block.scpdystopiaported.reinforced_panel2": "Reinforced Panel 2",
+  "block.scpdystopiaported.reinforced_panel3": "Reinforced Panel 3",
+  "block.scpdystopiaported.rusty_iron_block": "Rusty Iron Block",
+  "block.scpdystopiaported.steel_block": "Steel Block",
+  "block.scpdystopiaported.steel_block_darker": "Darker Steel Block",
+  "block.scpdystopiaported.vent": "Vent",
+  "block.scpdystopiaported.very_rusty_iron_block": "Very Rusty Iron Block",
 
   "creativetab.scpdystopiaported_tab": "SCP: Dystopia Items",
   "creativetab.scpdystopiaported_tab2": "SCP: Dystopia Blocks"
