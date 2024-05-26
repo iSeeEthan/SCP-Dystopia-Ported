@@ -1,0 +1,12 @@
+{
+  "item.scpdystopiaported.mop": "Mop",
+  "item.scpdystopiaported.research_paper": "Research Paper",
+
+  "block.scpdystopiaported.exterior_brick": "Exterior Brick Middle",
+  "block.scpdystopiaported.exterior_brick_bottom": "Exterior Brick Bottom",
+  "block.scpdystopiaported.exterior_brick_top": "Exterior Brick Top",
+  "block.scpdystopiaported.white_tiles": "White Tiles",
+
+  "creativetab.scpdystopiaported_tab": "SCP: Dystopia Items",
+  "creativetab.scpdystopiaported_tab2": "SCP: Dystopia Blocks"
+}
