@@ -33,6 +33,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.exterior_brick_middle.get());
                         pOutput.accept(ModBlocks.exterior_brick_bottom.get());
                         pOutput.accept(ModBlocks.white_tiles.get());
+                        pOutput.accept(ModBlocks.facility_concrete_gray.get());
+                        pOutput.accept(ModBlocks.facility_concrete_lightgray.get());
+                        pOutput.accept(ModBlocks.duct.get());
+                        pOutput.accept(ModBlocks.floor_wood.get());
 
                     })
                     .build());
