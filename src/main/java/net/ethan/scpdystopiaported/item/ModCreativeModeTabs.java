@@ -26,11 +26,11 @@ public class ModCreativeModeTabs {
                     .build());
 
     public static final RegistryObject<CreativeModeTab> scpdystopiaported_blocks_tab2 = CREATIVE_MODE_TABS.register("scpdystopiaported_items_tab2",
-            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.exterior_brick.get()))
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.exterior_brick_middle.get()))
                     .title(Component.translatable("creativetab.scpdystopiaported_tab2"))
                     .displayItems((itemDisplayParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.exterior_brick_top.get());
-                        pOutput.accept(ModBlocks.exterior_brick.get());
+                        pOutput.accept(ModBlocks.exterior_brick_middle.get());
                         pOutput.accept(ModBlocks.exterior_brick_bottom.get());
                         pOutput.accept(ModBlocks.white_tiles.get());
 

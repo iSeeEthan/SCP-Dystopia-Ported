@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "scpdystopiaported:block/exterior_brick"
+    "all": "scpdystopiaported:block/exterior_brick_middle"
   }
 }

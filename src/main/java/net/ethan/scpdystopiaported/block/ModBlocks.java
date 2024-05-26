@@ -20,7 +20,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, scpdystopiaported.MOD_ID);
 
 
-    public static final RegistryObject<Block> exterior_brick = registerBlock("exterior_brick",
+    public static final RegistryObject<Block> exterior_brick_middle = registerBlock("exterior_brick_middle",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> exterior_brick_bottom = registerBlock("exterior_brick_bottom",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
