@@ -58,6 +58,12 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> very_rusty_iron_block = registerBlock("very_rusty_iron_block",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> black_checkered_tiles = registerBlock("black_checkered_tiles",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> dark_tiles = registerBlock("dark_tiles",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> red_checkered_tiles = registerBlock("red_checkered_tiles",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     // Walls
     public static final RegistryObject<Block> black_wall_bottom = registerBlock("black_wall_bottom",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
