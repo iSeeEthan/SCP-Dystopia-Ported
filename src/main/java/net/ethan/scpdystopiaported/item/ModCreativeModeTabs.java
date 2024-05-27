@@ -77,6 +77,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.red_wall_bottom.get());
                         pOutput.accept(ModBlocks.red_wall_top.get());
                         pOutput.accept(ModBlocks.yellow_wall_bottom.get());
+                        pOutput.accept(ModBlocks.yellow_wall_top.get());
                     })
                     .build());
 
