@@ -81,6 +81,18 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.black_checkered_tiles.get());
                         pOutput.accept(ModBlocks.red_checkered_tiles.get());
                         pOutput.accept(ModBlocks.dark_tiles.get());
+                        pOutput.accept(ModBlocks.classic_hcz_wall_bottom.get());
+                        pOutput.accept(ModBlocks.classic_hcz_wall_middle.get());
+                        pOutput.accept(ModBlocks.classic_hcz_wall_middle_bloody.get());
+                        pOutput.accept(ModBlocks.classic_hcz_wall_top.get());
+                        pOutput.accept(ModBlocks.classic_lcz_floor1.get());
+                        pOutput.accept(ModBlocks.classic_lcz_floor2.get());
+                        pOutput.accept(ModBlocks.classic_lcz_wall_bottom.get());
+                        pOutput.accept(ModBlocks.classic_lcz_wall_middle1.get());
+                        pOutput.accept(ModBlocks.classic_lcz_wall_middle1_bloody.get());
+                        pOutput.accept(ModBlocks.classic_lcz_wall_middle2.get());
+                        pOutput.accept(ModBlocks.classic_lcz_wall_top.get());
+                        pOutput.accept(ModBlocks.grate_floor_top.get());
                     })
                     .build());
 

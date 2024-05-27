@@ -125,6 +125,30 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
     public static final RegistryObject<Block> yellow_wall_top = registerBlock("yellow_wall_top",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_hcz_wall_bottom = registerBlock("classic_hcz_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_hcz_wall_middle = registerBlock("classic_hcz_wall_middle",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_hcz_wall_middle_bloody = registerBlock("classic_hcz_wall_middle_bloody",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_hcz_wall_top = registerBlock("classic_hcz_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_floor1 = registerBlock("classic_lcz_floor1",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_floor2 = registerBlock("classic_lcz_floor2",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_wall_bottom = registerBlock("classic_lcz_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_wall_middle1 = registerBlock("classic_lcz_wall_middle1",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_wall_middle1_bloody = registerBlock("classic_lcz_wall_middle1_bloody",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_wall_middle2 = registerBlock("classic_lcz_wall_middle2",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> classic_lcz_wall_top = registerBlock("classic_lcz_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> grate_floor_top = registerBlock("grate_floor_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
 
 
 
