@@ -19,7 +19,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, scpdystopiaported.MOD_ID);
 
-
+// Blocks
     public static final RegistryObject<Block> exterior_brick_middle = registerBlock("exterior_brick_middle",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> exterior_brick_bottom = registerBlock("exterior_brick_bottom",
@@ -58,6 +58,68 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> very_rusty_iron_block = registerBlock("very_rusty_iron_block",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+    // Walls
+    public static final RegistryObject<Block> black_wall_bottom = registerBlock("black_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> black_wall_top = registerBlock("black_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> blue_wall_bottom = registerBlock("blue_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> blue_wall_top = registerBlock("blue_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> brown_wall_bottom = registerBlock("brown_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> brown_wall_top = registerBlock("brown_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> cyan_wall_bottom = registerBlock("cyan_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> cyan_wall_top = registerBlock("cyan_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> gray_wall_bottom = registerBlock("gray_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> gray_wall_top = registerBlock("gray_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> green_wall_bottom = registerBlock("green_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> green_wall_top = registerBlock("green_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> lightblue_wall_bottom = registerBlock("lightblue_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> lightblue_wall_top = registerBlock("lightblue_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> lightgray_wall_bottom = registerBlock("lightgray_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> lightgray_wall_top = registerBlock("lightgray_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> lime_wall_bottom = registerBlock("lime_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> lime_wall_top = registerBlock("lime_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> magenta_wall_bottom = registerBlock("magenta_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> magenta_wall_top = registerBlock("magenta_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> orange_wall_bottom = registerBlock("orange_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> orange_wall_top = registerBlock("orange_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> pink_wall_bottom = registerBlock("pink_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> pink_wall_top = registerBlock("pink_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> purple_wall_bottom = registerBlock("purple_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> purple_wall_top = registerBlock("purple_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> red_wall_bottom = registerBlock("red_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> red_wall_top = registerBlock("red_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> yellow_wall_bottom = registerBlock("yellow_wall_bottom",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> yellow_wall_top = registerBlock("yellow_wall_top",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+
 
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -48,6 +48,35 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.steel_block.get());
                         pOutput.accept(ModBlocks.steel_block_darker.get());
                         pOutput.accept(ModBlocks.vent.get());
+                        pOutput.accept(ModBlocks.black_wall_bottom.get());
+                        pOutput.accept(ModBlocks.black_wall_top.get());
+                        pOutput.accept(ModBlocks.blue_wall_bottom.get());
+                        pOutput.accept(ModBlocks.blue_wall_top.get());
+                        pOutput.accept(ModBlocks.brown_wall_bottom.get());
+                        pOutput.accept(ModBlocks.brown_wall_top.get());
+                        pOutput.accept(ModBlocks.cyan_wall_bottom.get());
+                        pOutput.accept(ModBlocks.cyan_wall_top.get());
+                        pOutput.accept(ModBlocks.gray_wall_bottom.get());
+                        pOutput.accept(ModBlocks.gray_wall_top.get());
+                        pOutput.accept(ModBlocks.green_wall_bottom.get());
+                        pOutput.accept(ModBlocks.green_wall_top.get());
+                        pOutput.accept(ModBlocks.lightblue_wall_bottom.get());
+                        pOutput.accept(ModBlocks.lightblue_wall_top.get());
+                        pOutput.accept(ModBlocks.lightgray_wall_bottom.get());
+                        pOutput.accept(ModBlocks.lightgray_wall_top.get());
+                        pOutput.accept(ModBlocks.lime_wall_bottom.get());
+                        pOutput.accept(ModBlocks.lime_wall_top.get());
+                        pOutput.accept(ModBlocks.magenta_wall_bottom.get());
+                        pOutput.accept(ModBlocks.magenta_wall_top.get());
+                        pOutput.accept(ModBlocks.orange_wall_bottom.get());
+                        pOutput.accept(ModBlocks.orange_wall_top.get());
+                        pOutput.accept(ModBlocks.pink_wall_bottom.get());
+                        pOutput.accept(ModBlocks.pink_wall_top.get());
+                        pOutput.accept(ModBlocks.purple_wall_bottom.get());
+                        pOutput.accept(ModBlocks.purple_wall_top.get());
+                        pOutput.accept(ModBlocks.red_wall_bottom.get());
+                        pOutput.accept(ModBlocks.red_wall_top.get());
+                        pOutput.accept(ModBlocks.yellow_wall_bottom.get());
                     })
                     .build());
 
