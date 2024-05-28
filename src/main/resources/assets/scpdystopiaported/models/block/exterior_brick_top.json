@@ -1,6 +1,10 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "scpdystopiaported:block/exterior_brick_top"
+    "particle": "block/exterior_brick_top",
+    "bottom": "block/facility_concrete_gray",
+    "top": "block/facility_concrete_gray",
+    "side": "block/exterior_brick_top",
+    "overlay": "block/exterior_brick_top"
   }
 }
