@@ -1,6 +1,8 @@
 {
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-      "all": "scpdystopiaported:block/orange_wall_top"
-    }
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "scpdystopiaported:block/orange_wall_top",
+    "top": "scpdystopiaported:block/facility_concrete_gray",
+    "bottom": "scpdystopiaported:block/facility_concrete_gray"
   }
+}
