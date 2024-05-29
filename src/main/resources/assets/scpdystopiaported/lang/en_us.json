@@ -1,6 +1,14 @@
 {
   "item.scpdystopiaported.mop": "Mop",
   "item.scpdystopiaported.research_paper": "Research Paper",
+  "item.scpdystopiaported.keycard_lvl0": "Level 0 Keycard",
+  "item.scpdystopiaported.keycard_lvl1": "Level 1 Keycard",
+  "item.scpdystopiaported.keycard_lvl2": "Level 2 Keycard",
+  "item.scpdystopiaported.keycard_lvl3": "Level 3 Keycard",
+  "item.scpdystopiaported.keycard_lvl4": "Level 4 Keycard",
+  "item.scpdystopiaported.keycard_lvl5": "Level 5 Keycard",
+  "item.scpdystopiaported.keycard_o5": "O5 Keycard",
+  "item.scpdystopiaported.keycard_omni": "Omni Keycard",
 
   "block.scpdystopiaported.exterior_brick_middle": "Exterior Brick Middle",
   "block.scpdystopiaported.exterior_brick_bottom": "Exterior Brick Bottom",

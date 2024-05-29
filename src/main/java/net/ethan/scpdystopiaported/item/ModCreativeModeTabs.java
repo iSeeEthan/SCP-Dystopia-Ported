@@ -20,6 +20,14 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, pOutput) -> {
                         pOutput.accept(ModItems.mop.get());
                         pOutput.accept(ModItems.research_paper.get());
+                        pOutput.accept(ModItems.keycard_lvl0.get());
+                        pOutput.accept(ModItems.keycard_lvl1.get());
+                        pOutput.accept(ModItems.keycard_lvl2.get());
+                        pOutput.accept(ModItems.keycard_lvl3.get());
+                        pOutput.accept(ModItems.keycard_lvl4.get());
+                        pOutput.accept(ModItems.keycard_lvl5.get());
+                        pOutput.accept(ModItems.keycard_o5.get());
+                        pOutput.accept(ModItems.keycard_omni.get());
 
 
                     })
