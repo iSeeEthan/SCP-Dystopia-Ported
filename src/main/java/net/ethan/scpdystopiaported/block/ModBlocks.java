@@ -1,5 +1,6 @@
 package net.ethan.scpdystopiaported.block;
 
+import net.ethan.scpdystopiaported.block.custom.KeycardBlock;
 import net.ethan.scpdystopiaported.scpdystopiaported;
 import net.ethan.scpdystopiaported.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -149,6 +150,8 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
     public static final RegistryObject<Block> grate_floor_top = registerBlock("grate_floor_top",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> sound_block = registerBlock("sound_block",
+            ()->new KeycardBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
 
 
 

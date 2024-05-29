@@ -93,6 +93,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.classic_lcz_wall_middle2.get());
                         pOutput.accept(ModBlocks.classic_lcz_wall_top.get());
                         pOutput.accept(ModBlocks.grate_floor_top.get());
+                        pOutput.accept(ModBlocks.sound_block.get());
                     })
                     .build());
 
