@@ -150,9 +150,12 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
     public static final RegistryObject<Block> grate_floor_top = registerBlock("grate_floor_top",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
+
     public static final RegistryObject<Block> sound_block = registerBlock("sound_block",
             ()->new SoundBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> cabinet = registerBlock("cabinet",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE).dynamicShape().noOcclusion()));
 
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

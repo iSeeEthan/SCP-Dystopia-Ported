@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "cabinet",
+	"parent": "scpdystopiaported:block/cabinet",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "block/cabinet",
-		"particle": "block/cabinet"
+		"0": "scpdystopiaported:block/cabinet",
+		"particle": "scpdystopiaported:block/cabinet"
 	},
 	"elements": [
 		{
@@ -102,5 +102,13 @@
 		"head": {
 			"scale": [0.66406, 0.71875, 0.68359]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "Voxel",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
 }
